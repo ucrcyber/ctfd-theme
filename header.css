@@ -1,0 +1,10 @@
+<style id="theme-color"> :root {
+    --theme-color: #000000;
+}
+ .navbar{
+    background-color: var(--theme-color) !important;
+}
+ .jumbotron{
+    background-color: var(--theme-color) !important;
+}
+ </style>

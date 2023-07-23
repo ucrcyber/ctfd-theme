@@ -1,0 +1,63 @@
+<style id="body-theme-color"> .navbar{
+    background-color: #000000 !important;
+}
+ .jumbotron{
+    background-color: #000000 !important;
+}
+ * {
+    background-color: black
+}
+ * {
+    color: #FFFFFF
+}
+ button.btn.btn-dark.challenge-button.w-100.text-truncate.pt-3.pb-3.mb-2.solved-challenge p{
+    background-color: #37d63e !important;
+}
+ button.btn.btn-dark.challenge-button.w-100.text-truncate.pt-3.pb-3.mb-2.solved-challenge span{
+    background-color: #37d63e !important;
+}
+ button.btn.btn-dark.challenge-button.w-100.text-truncate.pt-3.pb-3.mb-2 p{
+    background-color: #343a40 !important;
+}
+ button.btn.btn-dark.challenge-button.w-100.text-truncate.pt-3.pb-3.mb-2 span{
+    background-color: #343a40 !important;
+}
+ .modal-content{
+    background-color: #48C76A !important
+}
+ .alert.alert-info.alert-dismissable.text-center #result-message{
+    background-color: #d1ecf1 !important
+}
+ .alert.alert-success.alert-dismissable.text-center #result-message{
+    background-color: #d1ecf1 !important
+}
+ .alert.alert-danger.alert-dismissable.text-center #result-message{
+    background-color: #f8d7da !important
+}
+ .btn.btn-info.btn-file.mb-1.d-inline-block.px-2.w-100.text-truncate{
+    background-color: #000000 !important
+}
+ div.alert.alert-danger.alert-dismissable.text-center span{
+    background-color: #f8d7da !important;
+     color: #000000
+}
+ #result-message{
+    color: #015E1A !important
+}
+ #keys-pie-graph{
+    outline: #48C76A 3px solid;
+     !important
+}
+ #categories-pie-graph{
+    outline: #48C76A 3px solid;
+     !important
+}
+ div.row #score-graph{
+    outline: #48C76A 3px solid;
+     !important
+}
+ div.row:nth-of-type(4) h3{
+    box-shadow: 0 -3px 0 #48c76a;
+     !important
+}
+ </style>
