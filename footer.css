@@ -60,4 +60,11 @@
     box-shadow: 0 -3px 0 #48c76a;
      !important
 }
+.form-control {
+  color: #EEE;
+  background: black;
+}
+.form-control:focus {
+  color: #EEE;
+}
  </style>
