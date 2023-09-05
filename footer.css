@@ -67,4 +67,24 @@
 .form-control:focus {
   color: #EEE;
 }
+.nav-tabs .nav-item {
+    background-color: transparent;
+    margin-bottom: -1px;
+    border-color: #dee2e6 #dee2e6 black;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: white;
+    background-image: linear-gradient(#48C76A, black);
+    border-color: #dee2e6 #dee2e6 black;
+}
+a.nav-link {
+    color: #48C76A;
+    text-decoration: none;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-color: #dee2e6 #dee2e6 black;
+}
  </style>
