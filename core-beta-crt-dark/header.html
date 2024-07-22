@@ -1,9 +1,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-<style id="theme-color">
+<style id="theme">
   :root {
-    --theme-color: #000000;
+    --cyber-green: #1CFF49;
+    --cyber-green-hover: #14ca38;
+    --cyber-active-dark: #17c239;
   }
 
   * {
@@ -206,27 +208,27 @@
   }
 
   a {
-    color: #1CFF49
+    color: var(--cyber-green);
   }
 
   .btn-primary {
-    --bs-btn-bg: #1CFF49;
-    --bs-btn-border-color: #1CFF49;
-    --bs-btn-disabled-bg: #1CFF49;
-    --bs-btn-disabled-border-color: #1CFF49;
+    --bs-btn-bg: var(--cyber-green);
+    --bs-btn-border-color: var(--cyber-green);
+    --bs-btn-disabled-bg: var(--cyber-green);
+    --bs-btn-disabled-border-color: var(--cyber-green);
 
-    --bs-btn-hover-bg: #14ca38;
-    --bs-btn-hover-border-color: #14ca38;
-    --bs-btn-active-bg: #14ca38;
-    --bs-btn-active-border-color: #14ca38;
+    --bs-btn-hover-bg: var(--cyber-green-hover);
+    --bs-btn-hover-border-color: var(--cyber-green-hover);
+    --bs-btn-active-bg: var(--cyber-green-hover);
+    --bs-btn-active-border-color: var(--cyber-green-hover);
   }
 
   .nav-pills {
-    --bs-nav-pills-link-active-bg: #17c239;
+    --bs-nav-pills-link-active-bg: var(--cyber-active-dark);
   }
 
   .nav {
-    --bs-nav-link-color: #1CFF49;
-    --bs-link-hover-color: #14ca38;
+    --bs-nav-link-color: var(--cyber-green);
+    --bs-link-hover-color: var(--cyber-green-hover);
   }
 </style>
